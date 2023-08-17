@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
     <style>
         :root {
           font-size: 20px;
@@ -73,14 +76,20 @@
           color: #446;
         }
         
-        
+        @media (max-width: 768px) {
+          .content-1 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+           }
+          }
+
+
         .center{
           margin-left: 3%;
           font-family:sans-serif;
           position:absolute;
           top:50%;
           left:50%;
-          transform:prespective(1000px) translate(-50%,-50%);
+          transform:prespective(10px) translate(-50%,-50%);
           transform:skewY(15deg);
           transition:0.5s;
         }
@@ -131,6 +140,7 @@
         
         
         .content-1{
+            text-align: center;
             position: relative;
             margin-top: 50%;
             display: flex;
@@ -141,6 +151,7 @@
             color: #fff;
         }
         .content-2{
+            text-align: center;
             margin-top: -10%;
             position: relative;
             display: flex;
@@ -152,6 +163,7 @@
         }
         
         .content-3{
+          text-align: center;
             font-size: smaller;
             color:white;
             font-family: "Helvetica Neue", Arial, sans-serif;
@@ -166,6 +178,7 @@
         
         
         .content-4{
+          text-align: center;
             position: relative;
             margin-top: 20%;
             display: flex;
@@ -177,6 +190,7 @@
         }
 
         .content-5{
+          text-align: center;
             margin-top: 3%;
             font-size: smaller;
             color:white;
